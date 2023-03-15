@@ -37,21 +37,22 @@ pessoa['altura']
 */
 
 // Operação IMC = peso / (altura * altura)
-// let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
+let imc = pessoa.peso / (pessoa.altura * pessoa.altura)
 
 // .toFixed(X)
 // limita o numero de casas decimais 
-// console.log('IMC ' + imc.toFixed(2))
+console.log('IMC ' + imc.toFixed(2))
 
 // Alterar/Atualizar valor de propriedade
-//produtos.descricao = ['Arroz']
-//produtos.preco = ['4.99']
+pessoa.nome = 'william gabriel'
+produtos.descricao = ['Arroz']
+produtos.preco = [4.99]
 
 // Usando spreed operator
-//produtos.descricao = [...produtos.descricao, 'Feijão']
-//produtos.preco = [...produtos.preco, '9.99']
+produtos.descricao = [...produtos.descricao, 'Feijão', 'Batata']
+produtos.preco = [...produtos.preco, 9.99, 5.99]
 
 // Usando o spreed oparator em objetos const
-//carros.marca = [...carros.marca, 'WV']
-//carros.modelo = [...carros.modelo, 'Fusca']
-//carros.ano = [...carros.ano, '1997']
+carros.marca = [...carros.marca, 'WV']
+carros.modelo = [...carros.modelo, 'Fusca']
+carros.ano = [...carros.ano, '1997']

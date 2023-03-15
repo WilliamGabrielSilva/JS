@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.card {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    border-radius: 5px;
+}
+
+.card > h2 {
+    text-align: center;
+}
+
+.card > img {
+    margin-left: 50px;
+    border-radius: 5px;
+    border: 7px solid gray;
+    width: 300px;
+    height: 300px;
+}
+
+.card > p {
+    color: black;
+    width: 360px;
+    margin-left: 15px;
+    padding: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    text-align: center;
+}
