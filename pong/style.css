@@ -1,0 +1,33 @@
+.mesa {
+    background-color: black;
+    height: 400px;
+    width: 600px;
+}
+
+#bolinha {
+    position: absolute;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: 300px;
+    top: 200px;
+}
+
+#raquete1 {
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 75px;
+    top: 175px;
+    left: 20px;
+}
+
+#raquete2 {
+    position: absolute;
+    background-color: white;
+    width: 10px;
+    height: 75px;
+    top: 175px;
+    left: 585px;
+}
