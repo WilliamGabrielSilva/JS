@@ -1,47 +1,17 @@
-.container {
-    
-    transform: translate(-50%, -50%);
-    margin: 50%;
-    border: 1px solid gray;
-    width: 300px;
-    height: 350px;
-    background-color: rgb(33, 33, 58);
-    color: aliceblue;
-    outline: 1px solid gray;
-}
-
-.form{
-    margin-top: 20%;
-    margin-left: 15px;
-}
-
-input {
-  margin-bottom: 20px;  
-  outline: none;
-  width: 60px;
-  margin-left: 10px;
+div > label{
+    display: block;    
+    margin-bottom: 10px;
 }
 
 input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
     -webkit-appearance: none;
-    margin: 0;
+
 }
 
-h1 {
-    font-size: 25px;
-    text-align: center;
-}
-
-p {
-    text-align: center;
-}
-
-#result {
-    text-align: center;
-}
-
-#botao {
-    width: 60px;
-    background-color: white;
-    border: none;
+input {
+    font-size: 22px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid rgb(182, 25, 182);
+    outline: none;
 }
